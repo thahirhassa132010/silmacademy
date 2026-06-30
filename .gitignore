@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build artifacts (Next.js)
+.next/
+out/
+.turbo/
+turbo.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts to be removed
+*.download
+*._.js
+*._.css
+
+# Cache
+.cache/
+dist/
+build/
